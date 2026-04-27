@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessory Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px;
+      background: #ddd;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      background: #222;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .product button:hover {
+      background: #555;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Trendy Accessories Store</h1>
+  <p>Find the best accessories for every style</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Welcome to Our Store</h2>
+  <p>Explore stylish watches, bags, sunglasses and more!</p>
+</section>
+
+<section class="products" id="products">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Watch">
+    <h3>Stylish Watch</h3>
+    <p>$49.99</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Sunglasses">
+    <h3>Cool Sunglasses</h3>
+    <p>$19.99</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Handbag">
+    <h3>Elegant Handbag</h3>
+    <p>$59.99</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="Cap">
+    <h3>Trendy Cap</h3>
+    <p>$14.99</p>
+    <button>Add to Cart</button>
+  </div>
+
+</section>
+
+<footer id="contact">
+  <p>Contact us: accessories@email.com</p>
+  <p>&copy; 2026 Accessory Store</p>
+</footer>
+
+</body>
+</html>
 
